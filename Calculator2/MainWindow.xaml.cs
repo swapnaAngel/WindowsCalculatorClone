@@ -26,5 +26,22 @@ namespace Calculator2
         {
             InitializeComponent();
         }
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            var btn = sender as Button;
+            if (txtResult.Text != "0")
+            {
+                txtResult.Text = $"{txtResult.Text}{btn.Content}";
+            }
+            else
+            {
+                txtResult.Text = btn.Content.ToString();
+            }
+        }
+
+        private void Window_ContentRendered(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -95,14 +95,19 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="assets\cancel.png" />
-    <Resource Include="assets\hamburger.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="assets\anticlockwise.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="assets\keepontop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="assets\hamburger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="assets\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="assets\calculator.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

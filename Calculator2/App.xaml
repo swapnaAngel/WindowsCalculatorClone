@@ -14,19 +14,20 @@
 		</ResourceDictionary>-->
 
 		<ResourceDictionary>
-		<BitmapImage
-				x:Key="hamburger"
-			UriSource="pack://application:,,,/assets/hamburger.png"></BitmapImage>
-		<BitmapImage
-				x:Key="cancel"
-			UriSource="pack://application:,,,/assets/cancel.png"></BitmapImage>
-	    <BitmapImage
-				x:Key="anticlockwise"
-				UriSource="pack://application:,,,/assets/anticlockwise.png"></BitmapImage>
-		<BitmapImage
-				x:Key="keepontop"
-				UriSource="pack://application:,,,/assets/keepontop.png"></BitmapImage>
+
+			<Button.Resources>
+				<Style
+					TargetType="{x:Type Border}">
+					<Setter
+						Property="CornerRadius"
+						Value="4" />
+				</Style>
+			</Button.Resources>
+
 		</ResourceDictionary>
 
 	</Application.Resources>
 </Application>
+
+
+https://www.c-sharpcorner.com/blogs/wpf-create-a-simple-calculator-with-round-styled-buttons
